@@ -1,0 +1,13 @@
+#Simple ToDo List
+print('**********Less is More**********')
+item1 = input('1:')
+item2 = input('2:')
+item3 = input('3:')
+item4 = input('4:')
+item5 = input('5:')
+item6 = input('6:')
+item7 = input('7:')
+item8 = input('8:')
+item9 = input('9:')
+item10 = input('10:')
+
