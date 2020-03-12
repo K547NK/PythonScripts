@@ -11,3 +11,34 @@ item8 = input('8:')
 item9 = input('9:')
 item10 = input('10:')
 
+#Simple ToDo List
+topList = ('**********Less is More**********')
+endlist = ('**********End of List**********')
+def items():
+ 
+  item2 = input('2:')
+  item3 = input('3:')
+  item4 = input('4:')
+  item5 = input('5:')
+  item6 = input('6:')
+  item7 = input('7:')
+  item8 = input('8:')
+  item9 = input('9:')
+  item10 = input('10:')
+
+def additem():
+  add = input('add new item?:')
+  print(add)
+  if add == 'yes':
+    print(items.item2)
+  else:
+    print(endlist)
+
+
+#start profram
+print(topList)
+item1 = input('1:')
+if item1 is True:
+  additem()
+else:
+  print(endlist)
