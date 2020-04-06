@@ -8,7 +8,10 @@ keys='8C0B4ERLNTL4KOMW'
 df = ForeignExchange (key=keys, output_format='pandas')
 data, meta_data =df.get_currency_exchange_daily(from_symbol='USD', to_symbol='CAD',outputsize='compact')
 
+print (data)
+#still working out this section so its all commented out
+'''
 data['close'].plot()
 plt.title('My First Observation')
 plt.show()
-
+'''
