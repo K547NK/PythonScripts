@@ -23,7 +23,7 @@ item5 = input('5:')
 print (end_sec)
 
 def daily_handler():
-    writer = open('daily.txt','a')
+    writer = open('data','a')
     writer.write('\n')
     writer.write('\n'+title)
     writer.write('\n1.'+item1)
@@ -33,7 +33,7 @@ def daily_handler():
     writer.write('\n5.'+item5)
 
 def master_handler():
-    master = open('masterfile.txt','a')
+    master = open('backup','a')
     master.write('\n')
     master.write('\n  Day '+str(julian) + ' of '+str(year))
     master.write('\n'+title)
