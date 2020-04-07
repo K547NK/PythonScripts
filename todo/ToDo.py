@@ -11,7 +11,8 @@ end_sec = ('**********End of List**********')
 
 print (top_sec)
 #data entry section
-print ('Today is day '+ str(julian))
+print ('Today is day '+ str(julian)+' of '+str(year))
+title = input('List Title:')
 item1 = input('1:')
 item2 = input('2:')
 item3 = input('3:')
@@ -23,7 +24,8 @@ print (end_sec)
 
 def daily_handler():
     writer = open('daily.txt','a')
-    writer.write('Daily\n')
+    writer.write('\n')
+    writer.write('\n'+title)
     writer.write('\n1.'+item1)
     writer.write('\n2.'+item2)
     writer.write('\n3.'+item3)
@@ -34,6 +36,7 @@ def master_handler():
     master = open('masterfile.txt','a')
     master.write('\n')
     master.write('\n  Day '+str(julian) + ' of '+str(year))
+    master.write('\n'+title)
     master.write('\n1.'+item1)
     master.write('\n2.'+item2)
     master.write('\n3.'+item3)

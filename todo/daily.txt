@@ -1,7 +1,0 @@
-Daily
-
-1.Write a function to backup files
-2.Write a function to line through selected text
-3.Optimize code for individual line entries
-4.Omit fixed entry points
-5.Create a crash log
