@@ -10,6 +10,6 @@ Its features at the time of writing include but are not limited to:
 
 Pipeline works:
 
-   *working directory handling
-   *reminder app functionality
-    ...
+		*Working Directory feature
+		*User oriented initial set-up
+	
