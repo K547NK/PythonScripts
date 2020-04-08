@@ -14,7 +14,7 @@ while n > m :
  n-=1
  m+=1
  if n == m:
-  print ('N at '+str(n)+' M at '+str(m) )
-  break
+  print ('N at '+str(n)+' M at '+str(m) 
   print ('curse is broken')
   files.write('\n curse is broken')
+  break
