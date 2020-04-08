@@ -26,7 +26,10 @@ while m < 1000 :
     m = m+1
     if handle == 'done':
         break
+        time,sleep(1)
         print ('updating records')
+        time.sleep(1)
+        print('All done good to go')
 else:
     print('records updated')
 
