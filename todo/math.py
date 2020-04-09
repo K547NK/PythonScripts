@@ -1,20 +1,61 @@
 import os
 import time
-home = os.path.expanduser('~')
-os.chdir(home)
-cwd = os.getcwd()
-print(cwd)
-n = 50
-m = -n
-files = open('samples','a')
-while n > m :
- print ('N is ' +str(n) )
- files.write('\n''N is '+str(n)+' M is '+ str(m))
- time.sleep(1)
- n-=1
- m+=1
- if n == m:
-  print ('N at '+str(n)+' M at '+str(m) 
-  print ('curse is broken')
-  files.write('\n curse is broken')
-  break
+import platform
+import glob
+get_os = platform.system()
+print('runnin on '+ get_os)
+def fresh():
+  directory = input('enter path for working directory:')
+  home = os.path.expanduser(directory)
+  os.chdir(home)
+  cwd = os.getcwd()
+  settings =  open('list_settings','a')
+  settings.write(str(cwd))
+  print(cwd)
+  n = 50
+  m = -n
+  files = open('samples','a')
+  while n > m :
+   print ('N is ' +str(n) )
+   files.write('\n''N is '+str(n)+' M is '+ str(m))
+   time.sleep(1)
+   n-=1
+   m+=1
+   if n == m:
+    print ('N at '+str(n)+' M at '+str(m))
+    print ('curse is broken')
+    files.write('\n curse is broken \n')
+    break
+
+def rem():
+  reader = open (remember,'r')
+  print ('writing to' + reader.readline())
+  directory = str(reader.readline())
+  home = os.path.expanduser(directory)
+  os.chdir(home)
+  cwd = os.getcwd()
+  print(cwd)
+  n = 50
+  m = -n
+  files = open('samples','a')
+  while n > m :
+   print ('N is ' +str(n) )
+   files.write('\n''N is '+str(n)+' M is '+ str(m))
+   time.sleep(1)
+   n-=1
+   m+=1
+   if n == m:
+    print ('N at '+str(n)+' M at '+str(m))
+    print ('curse is broken')
+   files.write('\n curse is broken \n')
+   break
+
+memory = glob.glob('/home/**/**/list_settings',recursive = True)
+remember = (str(memory)[2:-2])
+if  str(remember) == remember:
+    rem()
+else:
+    print('starting from the bottom')
+    fresh()
+
+
