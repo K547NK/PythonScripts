@@ -1,9 +1,14 @@
+#importing system libraries
 import os
 import time
 import platform
 import glob
+
+# Auto detect system platform
 get_os = platform.system()
 print('runnin on '+ get_os)
+
+#Defining a funtction that for a vanilla install that is 
 def fresh():
   directory = input('enter path for working directory:')
   home = os.path.expanduser(directory)
@@ -26,7 +31,7 @@ def fresh():
     print ('curse is broken')
     files.write('\n curse is broken \n')
     break
-
+#
 def rem():
   reader = open (remember,'r')
   print ('writing to' + reader.readline())
