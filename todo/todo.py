@@ -22,7 +22,8 @@ item5 = input('5:')
 #end data entry section
 
 print (end_sec)
-
+#these two functions handle file management for limited input fields
+#opening appending and saving current modifications and backing them up
 def daily_handler():
     writer = open('data','a')
     writer.write('\n')
@@ -47,7 +48,7 @@ def master_handler():
     master.write('\n5.'+item5
 
 file_handler = input('1.Write to Daily\n2.Append to Master\n:')
-
+#Actions of the previously defined functions in play
 if file_handler == '1':
     daily_handler()
     master_handler()

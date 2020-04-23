@@ -3,15 +3,15 @@ import glob
 import time
 
 #This is section will only find list_settings  and print its location
-settingsLocation = glob.glob('/home/**/listSettings', recursive = True)
+settingsLocation = glob.glob('/home/**/list_settings', recursive = True)
 
 print('Settings location\n:'+str(settingsLocation)[2:-2]+'\n')
 
 #Modify working directory using listSettings parameters
 
-dirSwitchInput = (str(settingsLocation)[2:-14])
+dirSwitchInput = (str(settingsLocation)[2:-15])
 
-switchDirectory = os.chdir(dirSwitchInput)
+switchDirectory = os.chdir(str(dirSwitchInput))
 
 getCurrentWD = os.getcwd() #the new working directory
 
