@@ -1,0 +1,3 @@
+#!/bin/sh
+#making directories to save documents in for future file handling within the listing application
+mkdir -p ~/Documents/ToDo/settings && mkdir ~/Documents/ToDo/backup

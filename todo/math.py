@@ -57,10 +57,9 @@ def rem():
 
 memory = glob.glob('/home/**/**/list_settings',recursive = True)
 remember = (str(memory)[2:-2])
-if  str(remember) == remember:
-    rem()
-else:
-    print('starting from the bottom')
-    fresh()
 
+if memory == True:
+   print(remember)
+else:
+    print ('nothing to see')
 
