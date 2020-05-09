@@ -5,7 +5,6 @@ import os
 #working directory handling
 settingsDirectory = os.path.expanduser('~/Documents/ToDo/settings/')
 home = os.path.expanduser('~/Documents/ToDo/')
-
 #settings directoru handling
 settings = open ('/home/nigel/Documents/ToDo/settings/list_settings','a')
 settings.write(str(settingsDirectory))
@@ -30,7 +29,6 @@ def _primaryTitle_():
     primary.write('\n          '+title+'\n')
 def _primary_():
     primary.write(str(m)+asterisk+ handle +'\n')
-
 #Prompt User to Add Title and displays date also appends it at the top of list
 print ('Today is day '+ str(julian)+' of '+str(year))
 print ('type done() when done')
