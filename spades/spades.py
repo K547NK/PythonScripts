@@ -33,6 +33,6 @@ AC, AD, AH = 13
 If card is spade then;
         spade wins
 elif card spade++ then;
-        spade wins 
+        spade++ wins 
 
    
