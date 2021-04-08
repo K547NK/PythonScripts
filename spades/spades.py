@@ -28,3 +28,11 @@ JC, JD, JH = 10
 QC, KD, KH = 11
 KC, KD, KH = 12
 AC, AD, AH = 13
+
+#Spades
+If card is spade then;
+        spade wins
+elif card spade++ then;
+        spade wins 
+
+   
