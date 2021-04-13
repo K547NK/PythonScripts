@@ -13,6 +13,7 @@
     CLUBS    = C
 
 '''
+import random
 
 # Declare Card Values
 2C, 2D, 2H = 1
