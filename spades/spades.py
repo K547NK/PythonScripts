@@ -30,9 +30,16 @@ KC, KD, KH = 12
 AC, AD, AH = 13
 
 #Spades
-If card is spade then;
-        spade wins
-elif card spade++ then;
-        spade++ wins 
+deck = [ 2C, 2D, 2H,3C, 3D, 3H,4C, 4D, 4H 5C, 5D, 5H, 6C, 6D, 6H, 7C, 7D, 7H, 8C, 8D, 8H, 9C, 9D, 9H, 10C, 10D, 10H,JC, JD, JH,QC, KD, KH,KC, KD, KH, AC, AD, AH ]
+shuffleCards = shuffle(deck)
+dealCards = print(random.shuffleCards(13))
+#Deal the cards
+x = 4
+for x in dealCards:
+    x - 1
+    if x == 0 :
+        break
+    print(x)
+    
 
    
