@@ -52,6 +52,7 @@ P1 = input('Enter 1UP:')
 P2 = input('Enter 2UP:')
 P3 = input('Enter 3UP:')
 P4 = input('Enter 4UP:')
+
 #Deal the cards
 print(' Shuffle up and deal !')
 x = 4
