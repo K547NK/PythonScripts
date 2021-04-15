@@ -17,7 +17,7 @@ import random
 
 # Declare Card Values
 2C, 2D, 2H = 1
-3C, 3D, 3H = 2
+[3C, 3D, 3H] = 2
 4C, 4D, 4H = 3
 5C, 5D, 5H = 4
 6C, 6D, 6H = 5
