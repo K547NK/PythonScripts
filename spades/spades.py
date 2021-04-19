@@ -14,10 +14,9 @@
 
 '''
 import random
-#Decks
+#Deck
 deck =['2C','2D','2H','3C','3D','3H','4C','4D','4H','5C','5D','5H','6C','6D','6H','7C','7D','7H','8C','8D','8H','9C','9D','9H','10C','10D','10H','JC','JD','JH','QC','QD','QH','KC','KD','KH','AC','AD','AH','2S','3S','4S','5S','6S','7S','8S','9S','10S','JS','QS','KS','AS']
-shuffleCards = shuffle(deck)
-dealCards = print(random.shuffleCards(13))
+# Add value to list items
 
 #Players
 P1 = input('Enter 1UP:')
@@ -25,7 +24,11 @@ P2 = input('Enter 2UP:')
 P3 = input('Enter 3UP:')
 P4 = input('Enter 4UP:')
 
+#Shuffle Darks
+shuffleCards = shuffle(deck)
+
 #Deal the cards
+dealCards = print(random.shuffleCards(13))
 print(' Shuffle up and deal !')
 x = 4
 for x in dealCards:
