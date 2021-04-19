@@ -1,18 +1,16 @@
-''''spades games
-    bid  x10
-    bag  x1 10B = -100p 
-    NIL  100
-    BLIND NIL 200
-    TOTAL 13
-    SPADES RULES
-    A,K,Q,J,10,9,8,7,6,5,4,3,2
-    DECLARATION 
-    HEARTS   = H
-    DIAMONDS = D
-    SPADES   = S
-    CLUBS    = C
-
-'''
+#spades games
+#    bid  x10
+#    bag  x1 10B = -100p 
+#    NIL  100
+#    BLIND NIL 200
+#    TOTAL 13
+#    SPADES RULES
+#    A,K,Q,J,10,9,8,7,6,5,4,3,2
+#    DECLARATION 
+#    HEARTS   = H
+#    DIAMONDS = D
+#    SPADES   = S
+#    CLUBS    = C
 import random
 #Deck
 deck =['2C','2D','2H','3C','3D','3H','4C','4D','4H','5C','5D','5H','6C','6D','6H','7C','7D','7H','8C','8D','8H','9C','9D','9H','10C','10D','10H','JC','JD','JH','QC','QD','QH','KC','KD','KH','AC','AD','AH','2S','3S','4S','5S','6S','7S','8S','9S','10S','JS','QS','KS','AS']
