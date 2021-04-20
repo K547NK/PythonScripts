@@ -35,17 +35,14 @@ sum = 14
 for s in sum:
    s = sum #individual index
 if sum < 27:
-   sum ++
+   sum + 1
 elif sum == 27:
     break
-
-
-
 #Players
-P1 = input('Enter 1UP:')
-P2 = input('Enter 2UP:')
-P3 = input('Enter 3UP:')
-P4 = input('Enter 4UP:')
+playerOne   = input('Enter 1UP:')
+PlayerTwo   = input('Enter 2UP:')
+playerThree = input('Enter 3UP:')
+playerFour  = input('Enter 4UP:')
 
 #Shuffle Darks
 shuffleCards = shuffle(deck)
@@ -69,9 +66,4 @@ for x in dealCards:
     elif x == 1 :
         dealCards
         print ('Dealing 4UP')
-        x - 1
-    elif x == 0
         print ('Dealing done Enjoy!')
-        break
-  
-  
