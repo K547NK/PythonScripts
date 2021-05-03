@@ -28,3 +28,10 @@ def players():
 #Commands
 shuffle = shuffledHands()
 newPlayers = players()
+
+#Input for actual gameplay
+playerOneInput = (str(playerOne) + input('its your turn:'))
+playerThreeInput = (str(playerTwo) + input('its your turn:'))
+playerThreeInput = (str(playerThree) + input('its your turn:'))
+playerFourInput = (str(playerFour) + input('its your turn:'))
+
