@@ -1,7 +1,7 @@
 import pandas as pd
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.foreignexchange import ForeignExchange
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 keys='8C0B4ERLNTL4KOMW'
 
