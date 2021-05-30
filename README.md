@@ -1,3 +1,3 @@
 # PythonScripts
 Snakes everywhere,
-welcome to my humble repo
+welcome to my humble snakes repo

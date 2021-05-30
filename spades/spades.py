@@ -25,13 +25,14 @@ def players():
     playerThree = input('Enter 3UP:')
     playerFour  = input('Enter 4UP:')
 
+print (players().playerOne)
 #Commands
 shuffle = shuffledHands()
 newPlayers = players()
 
 #Input for actual gameplay
-playerOneInput = (str(playerOne) + input('its your turn:'))
-playerThreeInput = (str(playerTwo) + input('its your turn:'))
-playerThreeInput = (str(playerThree) + input('its your turn:'))
-playerFourInput = (str(playerFour) + input('its your turn:'))
+#playerOneInput = (str(players.playerOne) + input('its your turn:'))
+#playerThreeInput = (str(playerTwo) + input('its your turn:'))
+#playerThreeInput = (str(playerThree) + input('its your turn:'))
+#playerFourInput = (str(playerFour) + input('its your turn:'))
 
