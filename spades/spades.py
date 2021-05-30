@@ -31,7 +31,11 @@ shuffle = shuffledHands()
 newPlayers = players()
 
 #Input for actual gameplay
+<<<<<<< HEAD
 #playerOneInput = (str(players.playerOne) + input('its your turn:'))
+=======
+#playerOneInput = (str(playerOne) + input('its your turn:'))
+>>>>>>> 6dd06564bbd870eba0ad8fca62201f09d68a979d
 #playerThreeInput = (str(playerTwo) + input('its your turn:'))
 #playerThreeInput = (str(playerThree) + input('its your turn:'))
 #playerFourInput = (str(playerFour) + input('its your turn:'))
