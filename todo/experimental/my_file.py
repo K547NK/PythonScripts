@@ -17,3 +17,4 @@ getCurrentWD = os.getcwd() #the new working directory
 
 print('Operating from\n:'+getCurrentWD+'\n')
 
+get_os = platform.system()

@@ -1,0 +1,2 @@
+expanduser	TD-2-0-1.py	/^settingsDirectory = os.path.expanduser('~\/Documen/
+open	stage.py	/^settings = open ('\/home\/nigel\/Documents\/ToDo\//

@@ -1,0 +1,2 @@
+build_directory	directory_handler.py	/^def build_directory()$/
+now	TD-1.py	/^x = datetime.datetime.now()$/

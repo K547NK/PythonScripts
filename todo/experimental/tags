@@ -1,0 +1,2 @@
+glob	my_file.py	/^settingsLocation = glob.glob('\/home\/**\/list_set/
+system	math.py	/^get_os = platform.system()$/
