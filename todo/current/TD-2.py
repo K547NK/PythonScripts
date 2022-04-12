@@ -6,7 +6,7 @@ import os
 settingsDirectory = os.path.expanduser('~/Documents/ToDo/settings/')
 home = os.path.expanduser('~/Documents/ToDo/')
 #settings directoru handling
-settings = open ('/home/nigel/Documents/ToDo/settings/list_settings','a')
+settings = open ('~/Documents/ToDo/settings/list_settings','a')
 settings.write(str(settingsDirectory))
 os.chdir(home)
 #date handling
@@ -15,7 +15,7 @@ year =(x.year)
 julian =(x.strftime("%j"))
 #Create a primary file handling object
 primary = open ('todo','a')
-backup = open('/home/nigel/Documents/ToDo/backup/todo_backup','a')
+backup = open('~/Documents/ToDo/backup/todo_backup','a')
 #backup handling in a separate folder
 def _backupTitle_():
     backup.write('\n  Day '+str(julian) + ' of '+str(year)+'\n')
