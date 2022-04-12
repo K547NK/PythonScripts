@@ -33,8 +33,7 @@ def _primary_():
 print ('Today is day '+ str(julian)+' of '+str(year))
 print ('type done() when done')
 title = input('Title:')
-_primaryTitle_()
-_backupTitle_()
+_primaryTitle_(), _backupTitle_()
 #defining our "infinite loop variables"
 m = 1
 asterisk = (': ')
@@ -42,8 +41,7 @@ asterisk = (': ')
 while m < 1000 :
     #Defining our input variable in a continuous loop
     handle = input('*:')
-    _primary_()
-    _backup_()
+    _primary_(), _backup_()
     m = m+1
     if handle == 'done()':
         time.sleep(1)
